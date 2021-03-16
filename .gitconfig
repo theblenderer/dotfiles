@@ -1,0 +1,16 @@
+[user]
+	email = theblenderer@gmail.com
+	name = Daniel Groothuysen
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	cm = commit -m
+	st = status
+	co = checkout
+	rewind = checkout HEAD --
+	acm = add -u \\ commit -m
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
